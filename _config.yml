@@ -5,9 +5,9 @@
 #
 title: Jackson Osvaldo
 email:
-description: Uma forma simples de midializar conhecimento
-url: # the base hostname & protocol for your site
-keywords: ["blog", "jekyll"]
+description: Uma forma simples de midializar conhecimento.
+url: https://jacksonosvaldo.github.io
+keywords: ["blog", "Jackson Osvaldo", "Python", ""]
 
 #
 ###################################
@@ -38,7 +38,7 @@ owner:
   job: "Desenvolvedor Python"
   bio: "Um curioso apaixonado por livros, tecnologia e programação."
   email: jacksonosvaldo@live.com
-  disqus-shortname:
+  disqus-shortname: https-jacksonosvaldo-github-io
   twitter: #username
   facebook: #username
   google:
