@@ -5,7 +5,7 @@
 #
 title: Jackson Osvaldo
 email:
-description: Uma forma simples de midializar conhecimento.
+description: Um curioso apaixonado por livros, tecnologia e programação.
 url: https://jacksonosvaldo.github.io
 keywords: ["blog", "Jackson Osvaldo", "Python", ""]
 
@@ -34,7 +34,7 @@ kramdown:
 #
 owner:
   name: Jackson Osvaldo
-  avatar: eu.jpeg
+  avatar: avatar.jpeg
   job: "Desenvolvedor Python"
   bio: "Um curioso apaixonado por livros, tecnologia e programação."
   email: jacksonosvaldo@live.com

@@ -460,8 +460,8 @@ a:hover, a:focus { color: #75cea5; text-decoration: none; }
 
 h1, h2, h3, h4, h5, h6 { font-weight: 600; line-height: 1.7; }
 
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; color: rgba(0, 0, 0, 0.87); }
-h1 a:hover, h1 a:focus, h2 a:hover, h2 a:focus, h3 a:hover, h3 a:focus, h4 a:hover, h4 a:focus, h5 a:hover, h5 a:focus, h6 a:hover, h6 a:focus { color: rgba(61, 61, 61, 0.87); }
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; color: #42b983; }
+h1 a:hover, h1 a:focus, h2 a:hover, h2 a:focus, h3 a:hover, h3 a:focus, h4 a:hover, h4 a:focus, h5 a:hover, h5 a:focus, h6 a:hover, h6 a:focus { color: #f8bb61; }
 
 h1 { font-size: 2rem; margin: 1rem 0 0.8rem 0; }
 
@@ -469,7 +469,7 @@ h2 { font-size: 1.75rem; margin: 0.875rem 0 0.7rem 0; }
 
 h3 { font-size: 1.5rem; margin: 0.75rem 0 0.6rem 0; }
 
-h4 { font-size: 1.25rem; margin: 0.625rem 0 0.5rem 0; }
+h4 { font-size: 2rem; margin: 1rem 0 0.8rem 0; }
 
 h5 { font-size: 1.15rem; margin: 0.575rem 0 0.46rem 0; }
 
@@ -589,7 +589,7 @@ pre code span { word-break: break-all; }
 .cover-card { color: #fff; padding: 0 30px; }
 .cover-card .avatar { border-radius: 50%; width: 100px; height: 100px; float: none; }
 @media only screen and (min-width: 992px) { .cover-card .avatar { margin-right: auto; } }
-.cover-card .author_name { display: block; color: #F36170; font-size: 1.75em; text-transform: lowercase; }
+.cover-card .author_name { display: block; color: #F36170; font-size: 1.75em; }
 .cover-card .author_job { display: block; color: #8d7edc; font-size: 0.8em; font-weight: 700; text-transform: uppercase; margin: -5px auto 10px; }
 .cover-card .author_bio { font-size: 90%; display: block; }
 @media only screen and (min-width: 992px) { .cover-card { text-align: center; margin: 0 auto; padding: 0 0px 80px; } }
@@ -686,22 +686,18 @@ a.read-more { padding: 5px 8px; }
 .share-buttons ul li span { display: none; }
 @media only screen and (min-width: 600px) { .share-buttons ul li span { display: inline; margin: 0.5em; } }
 
-.twitter { background-color: #77bcf1; color: #fff; border-color: #77bcf1; }
-.twitter:visited { color: #fff; border-color: #77bcf1; }
-.twitter:hover { background-color: #fff; color: #77bcf1; border-color: #77bcf1; }
+.twitter { background-color: #00aced; color: #fff; border-color: #00aced; }
+.twitter:visited { color: #fff; border-color: #00aced; }
+.twitter:hover { background-color: #fff; color: #00aced; border-color: #00aced; }
 
-.facebook { background-color: #627aac; color: #fff; border-color: #627aac; }
-.facebook:visited { color: #fff; border-color: #627aac; }
-.facebook:hover { background-color: #fff; color: #627aac; border-color: #627aac; }
+.facebook { background-color: #3b5998; color: #fff; border-color: #3b5998; }
+.facebook:visited { color: #fff; border-color: #3b5998; }
+.facebook:hover { background-color: #fff; color: #3b5998; border-color: #3b5998; }
 
-.google-plus { background-color: #e36f60; color: #fff; border-color: #e36f60; }
-.google-plus:visited { color: #fff; border-color: #e36f60; }
-.google-plus:hover { background-color: #fff; color: #e36f60; border-color: #e36f60; }
+.linkedin { background-color: #0274b3; color: #fff; border-color: #0274b3; }
+.linkedin:visited { color: #fff; border-color: #0274b3; }
+.linkedin:hover { background-color: #fff; color: #0274b3; border-color: #0274b3; }
 
-.hacker-news { background-color: #f60; color: #fff; border-color: #f60; }
-.hacker-news:visited { color: #fff; border-color: #f60; }
-.hacker-news:hover { background-color: #fff; color: #f60; border-color: #f60; }
-
-.reddit { background-color: #5f99cf; color: #fff; border-color: #5f99cf; }
-.reddit:visited { color: #fff; border-color: #5f99cf; }
-.reddit:hover { background-color: #fff; color: #5f99cf; border-color: #5f99cf; }
+.reddit { background-color: #f74302; color: #fff; border-color: #f74302; }
+.reddit:visited { color: #fff; border-color: #f74302; }
+.reddit:hover { background-color: #fff; color: #f74302; border-color: #f74302; }

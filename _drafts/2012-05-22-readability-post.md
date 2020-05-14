@@ -1,9 +1,8 @@
 ---
 layout: post
-title: "Testing Readability with a Bunch of Text"
+title: "Testing \"Readability\" with a Bunch of Text"
 excerpt: "A ton of text to test readability."
-tags: [sample post, readability, test]
-author: leo
+categories: [paragraph]
 comments: true
 ---
 

@@ -1,6 +1,6 @@
 # skills section data
 
-label: Ability
+label: Abilidade
 id : cs
-aspects: Motivation, GitHub, Java, HTML/CSS, Docker, Python
-percentage: 100, 65, 70, 60, 60, 55
+aspects: Motivação, GitHub, Java, HTML/CSS, Docker, Python, R
+percentage: 100, 65, 50, 60, 30, 70, 70

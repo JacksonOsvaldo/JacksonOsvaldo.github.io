@@ -1,4 +1,13 @@
-- name: leonids
-  descr: "Bacon ipsum dolor sit amet doner meatball jowl short ribs, chicken prosciutto salami frankfurter. Pig drumstick turducken short ribs, brisket meatloaf ham hock shankle andouille corned beef strip steak. Venison ham bresaola strip steak. Pork belly ribeye prosciutto t-bone."
-  image: pong.png
-  github: https://github.com/renyuanz/leonids
+- name: PyEst
+  descr: "PyEst é uma ferramenta para tratamento estatístico desenvolvida em Python. Proposta por Jackson Osvaldo da Silva Braga, a aplicação pretende ser útil em diversas áreas, dinamizando o tratamento e análise de dados, sejam eles ambientais ou não.
+  Em sua primeira versão (0.1), tornada pública em 25 de maio de 2018, ainda temos alguns bugs não resolvidos e outros que, com o decorrer do tempo, surgirão. Esperamos que a comunidade, seja ela científica, de programadores ou de curiosos sobre o assunto, colaborem com a proposta da aplicação, ajudando a melhorar e aprimorar o software."
+  image: avatar.jpeg
+  github: https://github.com/PyEst/
+  website: https://pyest.github.io
+
+- name: CoronaGIS
+  descr: "Soluções Para Cadastro e Divulgação de Dados Epidemiológicos."
+  github: https://github.com/coronagis
+  website: https://coronagis.com
+
+

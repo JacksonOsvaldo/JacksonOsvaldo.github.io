@@ -37,7 +37,7 @@ $font-size-xs:               $font-size-root * 0.75 !default;
 $font-size-h1:               2rem !default;
 $font-size-h2:               1.75rem !default;
 $font-size-h3:               1.5rem !default;
-$font-size-h4:               1.25rem !default;
+$font-size-h4:               2rem !default;
 $font-size-h5:               1.15rem !default;
 $font-size-h6:               1rem !default;
 
@@ -52,7 +52,9 @@ $hr-border-width:             $border-width;
 //
 
 $text-color:       rgba(0, 0, 0, 0.87) !default;
-$text-color-1: #fff;
+$text-color-card: #fff;
+$text-color-title: #42b983;
+$text-color-title-focus: #f6a630;
 $background-color: #000000;
 
 $white:            #fff;
