@@ -5,25 +5,27 @@
     <description>Um curioso apaixonado por livros, tecnologia e programação.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>2020-05-14</pubDate>
-    <lastBuildDate>Thu, 14 May 2020 02:49:56 -0300</lastBuildDate>
+    <pubDate>2020-05-18</pubDate>
+    <lastBuildDate>Mon, 18 May 2020 23:34:23 -0300</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
         <title>Apresentação do Blog</title>
-        <description>&lt;p&gt;Portland in shoreditch Vice, labore typewriter pariatur hoodie fap sartorial Austin. Pinterest literally occupy Schlitz forage. Odio ad blue bottle vinyl, 90’s narwhal commodo bitters pour-over nostrud. Ugh est hashtag in, fingerstache adipisicing laboris esse Pinterest shabby chic Portland. Shoreditch bicycle rights anim, flexitarian laboris put a bird on it vinyl cupidatat narwhal. Hashtag artisan skateboard, flannel Bushwick nesciunt salvia aute fixie do plaid post-ironic dolor McSweeney’s. Cliche pour-over chambray nulla four loko skateboard sapiente hashtag.&lt;/p&gt;
+        <description>&lt;p&gt;Esse blog nasce de uma vontade antiga de popularizar conhecimento técnico-informacional. Além disso, é uma forma de exercitar minha escrita (melhorando gramática, conceitos de linguagem etc.). A intenção não é me colocar em um lugar privilegiado, tecendo ideias únicas e inovando com o ineditismo de muitas informações. Dentro possível, tentarei trazer coisas recém lançadas, recém públicadas. Mas, de todo modo, a intenção é conversar com você. A intenção é tentar coloborar com seu processo de busca por conhecimento.&lt;/p&gt;
 
-&lt;p&gt;Vero laborum commodo occupy. Semiotics voluptate mumblecore pug. Cosby sweater ullamco quinoa ennui assumenda, sapiente occupy delectus lo-fi. Ea fashion axe Marfa cillum aliquip. Retro Bushwick keytar cliche. Before they sold out sustainable gastropub Marfa readymade, ethical Williamsburg skateboard brunch qui consectetur gentrify semiotics. Mustache cillum irony, fingerstache magna pour-over keffiyeh tousled selfies.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.eusoudev.com.br/wp-content/uploads/2018/01/mercado-de-tecnologia-1024x768.jpg&quot; alt=&quot;Smithsonian Image&quot; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;cupidatat-90s-lo-fi-authentic-try-hard&quot;&gt;Cupidatat 90’s lo-fi authentic try-hard&lt;/h2&gt;
+&lt;p&gt;Há tempos comecei a entender que o mundo pode ser um devorador de ideias, te dando a falsa percepção de que a amálgaga de toda internet é acesssível, com seus conteúdos, com suas imagens e textos. Partindo dessa premissa,&lt;/p&gt;
+
+&lt;h2 id=&quot;principais-assuntos-do-blog&quot;&gt;Principais Assuntos do Blog&lt;/h2&gt;
 
 &lt;p&gt;In pug Portland incididunt mlkshk put a bird on it vinyl quinoa. Terry Richardson shabby chic +1, scenester Tonx excepteur tempor fugiat voluptate fingerstache aliquip nisi next level. Farm-to-table hashtag Truffaut, Odd Future ex meggings gentrify single-origin coffee try-hard 90’s.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Sartorial hoodie&lt;/li&gt;
-  &lt;li&gt;Labore viral forage&lt;/li&gt;
-  &lt;li&gt;Tote bag selvage&lt;/li&gt;
-  &lt;li&gt;DIY exercitation et id ugh tumblr church-key&lt;/li&gt;
+  &lt;li&gt;Desenvolvimento de Softwares;&lt;/li&gt;
+  &lt;li&gt;Linguagens de Programação;&lt;/li&gt;
+  &lt;li&gt;Redes Neurais Artificiais;&lt;/li&gt;
+  &lt;li&gt;Informática (Hardware, Software e Manutenção).&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Incididunt umami sriracha, ethical fugiat VHS ex assumenda yr irure direct trade. Marfa Truffaut bicycle rights, kitsch placeat Etsy kogi asymmetrical. Beard locavore flexitarian, kitsch photo booth hoodie plaid ethical readymade leggings yr.&lt;/p&gt;
@@ -52,11 +54,11 @@
 
 &lt;p&gt;Aliquip enim artisan dolor post-ironic. Pug tote bag Marfa, deserunt pour-over Portland wolf eu odio intelligentsia american apparel ugh ea. Sunt viral et, 3 wolf moon gastropub pug id. Id fashion axe est typewriter, mlkshk Portland art party aute brunch. Sint pork belly Cosby sweater, deep v mumblecore kitsch american apparel. Try-hard direct trade tumblr sint skateboard. Adipisicing bitters excepteur biodiesel, pickled gastropub aute veniam.&lt;/p&gt;
 </description>
-        <pubDate>2020-05-14</pubDate>
+        <pubDate>2020-05-18</pubDate>
         <link>http://localhost:4000/articles/2020-05/apresentacao</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2020-05/apresentacao</guid>
         
-        <category>teste</category>
+        <category>Intro</category>
         
         
         <category>Geral</category>
