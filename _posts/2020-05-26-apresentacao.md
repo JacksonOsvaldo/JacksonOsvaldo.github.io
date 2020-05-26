@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Apresentação do Blog
-excerpt: "Esse blog nasce de uma vontade antiga de popularizar assuntos relacionados a tecnologia de uma maneira geral. Além disso, é uma forma de exercitar minha escrita (melhorando gramática, conceitos de linguagem etc.) e, claro, é uma forma de melhorar minhas expertises em assuntos do meu interesse."
+excerpt: "Esse blog nasce de uma vontade antiga de popularizar assuntos relacionados a tecnologia de uma maneira geral. Além disso, é tanto uma forma de exercitar minha escrita (melhorando gramática, conceitos de linguagem, etc.) como de melhorar minhas expertises em assuntos do meu interesse."
 categories: [Geral]
 comments: true
 tag: "Intro"
