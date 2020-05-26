@@ -2,5 +2,5 @@
 
 label: Abilidade
 id : cs
-aspects: Motivação, GitHub, Java, HTML/CSS, Docker, Python, R
-percentage: 100, 65, 50, 60, 30, 70, 70
+aspects: Motivação, Git, Java, HTML/CSS, Wordpress, Python, R, Julia, Dart, Flutter
+percentage: 100, 65, 50, 60, 30, 70, 70, 30, 40, 40

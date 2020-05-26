@@ -5,56 +5,56 @@
     <description>Um curioso apaixonado por livros, tecnologia e programação.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>2020-05-18</pubDate>
-    <lastBuildDate>Mon, 18 May 2020 23:34:23 -0300</lastBuildDate>
+    <pubDate>2020-05-26</pubDate>
+    <lastBuildDate>Tue, 26 May 2020 00:51:01 -0300</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
         <title>Apresentação do Blog</title>
-        <description>&lt;p&gt;Esse blog nasce de uma vontade antiga de popularizar conhecimento técnico-informacional. Além disso, é uma forma de exercitar minha escrita (melhorando gramática, conceitos de linguagem etc.). A intenção não é me colocar em um lugar privilegiado, tecendo ideias únicas e inovando com o ineditismo de muitas informações. Dentro possível, tentarei trazer coisas recém lançadas, recém públicadas. Mas, de todo modo, a intenção é conversar com você. A intenção é tentar coloborar com seu processo de busca por conhecimento.&lt;/p&gt;
+        <description>&lt;p&gt;Esse blog nasce de uma vontade antiga de popularizar assuntos relacionados a tecnologia de uma maneira geral. Além disso, é tanto uma forma de exercitar minha escrita (melhorando gramática, conceitos de linguagem, etc.) como de melhorar minhas expertises em assuntos do meu interesse.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://www.eusoudev.com.br/wp-content/uploads/2018/01/mercado-de-tecnologia-1024x768.jpg&quot; alt=&quot;Smithsonian Image&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;A intenção é conversar com você e tentar colaborar, ao máximo, com seu processo de busca por conhecimento. E, isso, seja indicando os caminhos ou destrinchando muitas coisas e situações do meu cotidiano de trabalho.&lt;/p&gt;
 
-&lt;p&gt;Há tempos comecei a entender que o mundo pode ser um devorador de ideias, te dando a falsa percepção de que a amálgaga de toda internet é acesssível, com seus conteúdos, com suas imagens e textos. Partindo dessa premissa,&lt;/p&gt;
+&lt;p&gt;Acho que, como autodidata, uma das coisas que mais admiro na internet é ter onde encontrar conteúdo para ler ou para resolver um determinado problema e por aí vai. Isso me motiva a continuar. Essa motivação talvez se deva a minha paixão pelo movimento de &lt;a href=&quot;https://pt.wikipedia.org/wiki/Software_livre&quot;&gt;&lt;em&gt;Software Livre&lt;/em&gt;&lt;/a&gt; e por tudo que, graças a ele, tive a oportunidade de aprender.&lt;/p&gt;
+
+&lt;p&gt;Como diria nosso querido &lt;a href=&quot;https://diolinux.com.br/2016/05/13-frases-epicas-de-richard-stallman.html&quot;&gt;Richard Stallman&lt;/a&gt;,&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Qualquer decisão que conduz uma pessoa vem de valores e objetivos. As pessoas podem ter muitos objetivos e valores diferentes: fama, lucro, amor, sobrevivência, diversão e liberdade são apenas algumas das metas que uma boa pessoa pode ter. Quando o objetivo é para ajudar os outros tão  bem como a si mesmo, chamamos isso de idealismo.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Talvez não haja nada de relacionado com o que disse acima, mas essa é uma das frases mais bonitas que li ultimamente e que conseguem relacionar o que penso com o que devo fazer — ou com o que acho que devo fazer. Acho que conhecimento para si próprio, apenas, é uma coisa inútil, entende? E é isso que quero dizer.&lt;/p&gt;
+
+&lt;p&gt;Quem sabe eu consiga ajudar alguém a se encantar por esse mundo da tecnologia como eu, assim, me encantei. E, caso isso ocorra, caso alguém, mesmo que apenas uma única pessoa, consiga encontrar ou sentido, ou direção nessas minhas discussões, ficarei muito satisfeito.&lt;/p&gt;
 
 &lt;h2 id=&quot;principais-assuntos-do-blog&quot;&gt;Principais Assuntos do Blog&lt;/h2&gt;
 
-&lt;p&gt;In pug Portland incididunt mlkshk put a bird on it vinyl quinoa. Terry Richardson shabby chic +1, scenester Tonx excepteur tempor fugiat voluptate fingerstache aliquip nisi next level. Farm-to-table hashtag Truffaut, Odd Future ex meggings gentrify single-origin coffee try-hard 90’s.&lt;/p&gt;
+&lt;p&gt;Então, sobre as postagens desse blog, preciso dizer que os assuntos ou conteúdos, caso prefira diferenciar, estarão relacionados ou farão parte dos seguintes eixos temáticos:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Desenvolvimento de Softwares;&lt;/li&gt;
+  &lt;li&gt;Informática Geral ou Básica (Hardware, Software e Manutenção de PCs);&lt;/li&gt;
+  &lt;li&gt;Sistemas Operacionais;&lt;/li&gt;
+  &lt;li&gt;Desenvolvimento de Software;&lt;/li&gt;
   &lt;li&gt;Linguagens de Programação;&lt;/li&gt;
-  &lt;li&gt;Redes Neurais Artificiais;&lt;/li&gt;
-  &lt;li&gt;Informática (Hardware, Software e Manutenção).&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Machine Learning&lt;/em&gt;;&lt;/li&gt;
+  &lt;li&gt;Curiosidades.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Incididunt umami sriracha, ethical fugiat VHS ex assumenda yr irure direct trade. Marfa Truffaut bicycle rights, kitsch placeat Etsy kogi asymmetrical. Beard locavore flexitarian, kitsch photo booth hoodie plaid ethical readymade leggings yr.&lt;/p&gt;
+&lt;p&gt;Esses eixos são o que posso dizer serem as coisas que mais me fascinam no universo da tecnologia. Claro, não os únicos, mas são os principais.&lt;/p&gt;
 
-&lt;p&gt;Aesthetic odio dolore, meggings disrupt qui readymade stumptown brunch Terry Richardson pour-over gluten-free. Banksy american apparel in selfies, biodiesel flexitarian organic meh wolf quinoa gentrify banjo kogi. Readymade tofu ex, scenester dolor umami fingerstache occaecat fashion axe Carles jean shorts minim. Keffiyeh fashion axe nisi Godard mlkshk dolore. Lomo you probably haven’t heard of them eu non, Odd Future Truffaut pug keytar meggings McSweeney’s Pinterest cred. Etsy literally aute esse, eu bicycle rights qui meggings fanny pack. Gentrify leggings pug flannel duis.&lt;/p&gt;
+&lt;p&gt;Dentro de cada um desses eixos existem infindáveis assuntos, conteúdos, tipos de abordagem e técnicas. Cada um desses eixos é um universo em si. Por isso, não esperem que eu escreva uma bíblia, tudo bem?&lt;/p&gt;
 
-&lt;h2 id=&quot;forage-occaecat-cardigan-qui&quot;&gt;Forage occaecat cardigan qui&lt;/h2&gt;
+&lt;h2 id=&quot;apoio&quot;&gt;Apoio&lt;/h2&gt;
 
-&lt;p&gt;Fashion axe hella gastropub lo-fi kogi 90’s aliquip +1 veniam delectus tousled. Cred sriracha locavore gastropub kale chips, iPhone mollit sartorial. Anim dolore 8-bit, pork belly dolor photo booth aute flannel small batch. Dolor disrupt ennui, tattooed whatever salvia Banksy sartorial roof party selfies raw denim sint meh pour-over. Ennui eu cardigan sint, gentrify iPhone cornhole.&lt;/p&gt;
+&lt;p&gt;Esse projeto é livre e gratuito. No entanto, caso você queira contribuir com ele, seja me pagando um café (&lt;a href=&quot;https://pag.ae/7W3osZhKt&quot; target=&quot;_blank&quot;&gt;pode clicar aqui&lt;/a&gt; ou no botão para doação no lado esquerdo) ou comentando as postagens, seja muito bem-vindo ou bem-vinda. Sua opinião é muito importante pra mim. Ela me ajuda a crescer, tanto em discurso como de que forma eu posso melhorar no processo de apresentação das minhas ideias.&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;Whatever velit occaecat quis deserunt gastropub, leggings elit tousled roof party 3 wolf moon kogi pug blue bottle ea. Fashion axe shabby chic Austin quinoa pickled laborum bitters next level, disrupt deep v accusamus non fingerstache.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Desde já, muito obrigado pela ajuda.&lt;/p&gt;
 
-&lt;p&gt;Tote bag asymmetrical elit sunt. Occaecat authentic Marfa, hella McSweeney’s next level irure veniam master cleanse. Sed hoodie letterpress artisan wolf leggings, 3 wolf moon commodo ullamco. Anim occupy ea labore Terry Richardson. Tofu ex master cleanse in whatever pitchfork banh mi, occupy fugiat fanny pack Austin authentic. Magna fugiat 3 wolf moon, labore McSweeney’s sustainable vero consectetur. Gluten-free disrupt enim, aesthetic fugiat jean shorts trust fund keffiyeh magna try-hard.&lt;/p&gt;
+&lt;h2 id=&quot;conclusão&quot;&gt;Conclusão&lt;/h2&gt;
 
-&lt;h2 id=&quot;hoodie-duis&quot;&gt;Hoodie Duis&lt;/h2&gt;
-
-&lt;p&gt;Actually salvia consectetur, hoodie duis lomo YOLO sunt sriracha. Aute pop-up brunch farm-to-table odio, salvia irure occaecat. Sriracha small batch literally skateboard. Echo Park nihil hoodie, aliquip forage artisan laboris. Trust fund reprehenderit nulla locavore. Stumptown raw denim kitsch, keffiyeh nulla twee dreamcatcher fanny pack ullamco 90’s pop-up est culpa farm-to-table. Selfies 8-bit do pug odio.&lt;/p&gt;
-
-&lt;h3 id=&quot;thundercats-ho&quot;&gt;Thundercats Ho!&lt;/h3&gt;
-
-&lt;p&gt;Fingerstache thundercats Williamsburg, deep v scenester Banksy ennui vinyl selfies mollit biodiesel duis odio pop-up. Banksy 3 wolf moon try-hard, sapiente enim stumptown deep v ad letterpress. Squid beard brunch, exercitation raw denim yr sint direct trade. Raw denim narwhal id, flannel DIY McSweeney’s seitan. Letterpress artisan bespoke accusamus, meggings laboris consequat Truffaut qui in seitan. Sustainable cornhole Schlitz, twee Cosby sweater banh mi deep v forage letterpress flannel whatever keffiyeh. Sartorial cred irure, semiotics ethical sed blue bottle nihil letterpress.&lt;/p&gt;
-
-&lt;p&gt;Occupy et selvage squid, pug brunch blog nesciunt hashtag mumblecore skateboard yr kogi. Ugh small batch swag four loko. Fap post-ironic qui tote bag farm-to-table american apparel scenester keffiyeh vero, swag non pour-over gentrify authentic pitchfork. Schlitz scenester lo-fi voluptate, tote bag irony bicycle rights pariatur vero Vice freegan wayfarers exercitation nisi shoreditch. Chambray tofu vero sed. Street art swag literally leggings, Cosby sweater mixtape PBR lomo Banksy non in pitchfork ennui McSweeney’s selfies. Odd Future Banksy non authentic.&lt;/p&gt;
-
-&lt;p&gt;Aliquip enim artisan dolor post-ironic. Pug tote bag Marfa, deserunt pour-over Portland wolf eu odio intelligentsia american apparel ugh ea. Sunt viral et, 3 wolf moon gastropub pug id. Id fashion axe est typewriter, mlkshk Portland art party aute brunch. Sint pork belly Cosby sweater, deep v mumblecore kitsch american apparel. Try-hard direct trade tumblr sint skateboard. Adipisicing bitters excepteur biodiesel, pickled gastropub aute veniam.&lt;/p&gt;
+&lt;p&gt;Queria te agradecer por ter chegado até aqui e te convidar a continuar acompanhando nossa história. Um forte abraço e até a próxima. ;) &amp;lt;3&lt;/p&gt;
 </description>
-        <pubDate>2020-05-18</pubDate>
+        <pubDate>2020-05-26</pubDate>
         <link>http://localhost:4000/articles/2020-05/apresentacao</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2020-05/apresentacao</guid>
         
