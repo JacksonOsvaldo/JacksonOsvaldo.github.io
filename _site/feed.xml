@@ -5,8 +5,8 @@
     <description>Um curioso apaixonado por livros, tecnologia e programação.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>2020-05-28</pubDate>
-    <lastBuildDate>Thu, 28 May 2020 00:30:39 -0300</lastBuildDate>
+    <pubDate>2020-06-01</pubDate>
+    <lastBuildDate>Mon, 01 Jun 2020 21:25:32 -0300</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -61,7 +61,7 @@
 
 &lt;p&gt;&lt;img src=&quot;https://git-scm.com/images/progit2.png&quot; width=&quot;200&quot; height=&quot;300&quot; /&gt;&lt;/p&gt;
 </description>
-        <pubDate>2020-05-28</pubDate>
+        <pubDate>2020-06-01</pubDate>
         <link>http://localhost:4000/articles/2020-05/git-e-controle-de-versoes-01</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2020-05/git-e-controle-de-versoes-01</guid>
         
@@ -117,7 +117,7 @@
 
 &lt;p&gt;Queria te agradecer por ter chegado até aqui e te convidar a continuar acompanhando nossa história. Um forte abraço e até a próxima. ;) &amp;lt;3&lt;/p&gt;
 </description>
-        <pubDate>2020-05-28</pubDate>
+        <pubDate>2020-06-01</pubDate>
         <link>http://localhost:4000/articles/2020-05/apresentacao</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2020-05/apresentacao</guid>
         
