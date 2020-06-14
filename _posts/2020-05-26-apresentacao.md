@@ -38,7 +38,7 @@ Dentro de cada um desses eixos existem infindáveis assuntos, conteúdos, tipos 
 
 ## Apoio
 
-Esse projeto é livre e gratuito. No entanto, caso você queira contribuir com ele, seja me pagando um café (<a href="https://pag.ae/7W3osZhKt" target="_blank">pode clicar aqui</a> ou no botão para doação no lado esquerdo) ou comentando as postagens, seja muito bem-vindo ou bem-vinda. Sua opinião é muito importante pra mim. Ela me ajuda a crescer, tanto em discurso como de que forma eu posso melhorar no processo de apresentação das minhas ideias.
+Esse projeto é livre e gratuito. No entanto, caso você queira contribuir com ele, seja me pagando um café (<a href="https://pag.ae/7W3osZhKt" target="_blank">pode clicar aqui</a> ou no botão para doação no lado esquerdo) ou comentando as postagens, seja muito bem-vindo ou bem-vinda. Sua opinião é muito importante pra mim. Ela me ajuda a crescer, tanto em discurso como a entender de que forma eu posso melhorar no processo de apresentação das minhas ideias.
 
 Desde já, muito obrigado pela ajuda.
 
