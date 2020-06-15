@@ -5,15 +5,15 @@
     <description>Um curioso apaixonado por livros, tecnologia e programação.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>2020-06-01</pubDate>
-    <lastBuildDate>Mon, 01 Jun 2020 21:25:32 -0300</lastBuildDate>
+    <pubDate>2020-06-14</pubDate>
+    <lastBuildDate>Sun, 14 Jun 2020 22:43:06 -0300</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
         <title>Git e Controle de versões [Parte 01]</title>
         <description>&lt;p&gt;Todo desenvolvedor de software mais experiente talvez utilize Git todos os dias. Desde baixar um arquivo compactado a fazer clone de todo código fonte da versão mais atual de um projeto, essa é uma das ferramentas mais interessantes de se trabalhar com a temática relacionada a controle de versões de um software, gerenciando todos os seus arquivos. Mas, por que falar de Git e de Controle de versões?&lt;/p&gt;
 
-&lt;p&gt;Recentemente, assisti um &lt;a href=&quot;https://youtu.be/sx4hAHhO9CY&quot; target=&quot;_blank&quot;&gt;vídeo&lt;/a&gt; do &lt;a href=&quot;https://www.instagram.com/akitaonrails/?hl=pt-br&quot; target=&quot;_blank&quot;&gt;Fábio Akita&lt;/a&gt; onde ele cita um documento, ou uma lista deles, desenvolvido por &lt;a href=&quot;https://github.com/kamranahmedse&quot; target=&quot;_blank&quot;&gt;Kamran Ahmed&lt;/a&gt;. Nesse &lt;a href=&quot;https://github.com/kamranahmedse/developer-roadmap&quot; target=&quot;_blank&quot;&gt;documento&lt;/a&gt;, o autor elenca todos as principais ferramentas e/ou conhecimentos que, segundo ele, deveriam ser dominados por toda pessoa que deseje trabalhar como desenvolvedor de software.&lt;/p&gt;
+&lt;p&gt;Recentemente, assisti um &lt;a href=&quot;https://youtu.be/sx4hAHhO9CY&quot; target=&quot;_blank&quot;&gt;vídeo&lt;/a&gt; do &lt;a href=&quot;https://www.instagram.com/akitaonrails/?hl=pt-br&quot; target=&quot;_blank&quot;&gt;Fábio Akita&lt;/a&gt; onde ele cita um documento, ou uma lista deles, desenvolvido por &lt;a href=&quot;https://github.com/kamranahmedse&quot; target=&quot;_blank&quot;&gt;Kamran Ahmed&lt;/a&gt;. Nesse &lt;a href=&quot;https://github.com/kamranahmedse/developer-roadmap&quot; target=&quot;_blank&quot;&gt;documento&lt;/a&gt;, o autor elenca todas as principais ferramentas e/ou conhecimentos que, segundo ele, deveriam ser dominados por quem deseje trabalhar como desenvolvedor de software.&lt;/p&gt;
 
 &lt;p&gt;Desses documentos, uma das primeiras coisas que Ahmed cita é o Git junto do Controle de Versões (imagem a baixo). Mas, a pergunta vem agora, por quê?&lt;/p&gt;
 
@@ -27,13 +27,15 @@
 
 &lt;p&gt;Akita relaciona isso ao fato da existência de ferramentas como Git. Ou seja, é por conta de todo gerenciamento provido por tecnologias como essa que nós conseguimos tanto controlar, como editar e colocar em produção as mais recentes versões de um determinado software sem que, nesse processo, nos percamos em meio a uma infinidade de códigos, arquivos, diretórios etc.&lt;/p&gt;
 
-&lt;p&gt;Esse post tem como premissa explanar um pouco mais o assunto relacionado a Git e a Controle de Versões. Não que faça isso de maneira muito profunda ou avançada demais a ponto de tornar extremamente seleta essa leitura. Pelo contrário. O post será divido em duas partes. A primeira parte, essa aqui, fará uma apresentação aos principais conceitos sobre gerais sobre o assunto.&lt;/p&gt;
+&lt;p&gt;Então, esse post tem a intenção de explanar um pouco mais o assunto relacionado a Git e a Controle de Versões. Não que faça isso de maneira muito profunda ou avançada demais a ponto de tornar extremamente seleta essa leitura. Pelo contrário. O post será divido em duas partes. A primeira parte, essa aqui, fará uma breve apresentação aos principais conceitos relacionados ao assunto.&lt;/p&gt;
 
-&lt;p&gt;Na segunda parte, iremos aplicar esse conceitos em algumas coisas bem práticas, como criar um repositório, fazer um &lt;em&gt;clone&lt;/em&gt;, um &lt;em&gt;push&lt;/em&gt;, um &lt;em&gt;pull&lt;/em&gt; e por aí vai. E, oh, não se assuste com essas palavras meio estranhas. Vamos aprender juntos o que cada uma delas, pelo menos as principais, significam. Tudo bem?&lt;/p&gt;
+&lt;p&gt;Na segunda parte, iremos aplicar esses conceitos em algumas coisas bem práticas e básicas como criar um repositório, fazer um &lt;em&gt;clone&lt;/em&gt;, um &lt;em&gt;push&lt;/em&gt;, um &lt;em&gt;pull&lt;/em&gt; e por aí vai. E, oh, não se assuste com essas palavras meio estranhas. Vamos aprender juntos o que cada uma delas, pelo menos as principais, significam. Tudo bem?&lt;/p&gt;
 
 &lt;h2 id=&quot;o-que-é-controle-de-versões&quot;&gt;O que é controle de versões?&lt;/h2&gt;
 
-&lt;p&gt;Acho que antes de seguirmos falando sobre Git precisamos elucidar alguns conceitos importantes, como os relacionados a Controle de Versões. Vou levar em consideração algumas dúvidas que me deixam inquieto sobre o assunto, de forma que elas sejam destrinchadas em tópicos e, desse jeito, possam agrupar esses conceitos.&lt;/p&gt;
+&lt;p&gt;No processo de pensar a escrita desse post me dei conta de uma coisa, eu ainda não sabia o que fundamentava tudo isso. Ou seja, eu não sabia quais eram os fundamentos teóricos de um controle de versões, quem havia pensado, preiramente, nele e quais eram sua reais variações, se existiam.&lt;/p&gt;
+
+&lt;p&gt;Então,&lt;/p&gt;
 
 &lt;h3 id=&quot;quem-criou&quot;&gt;Quem criou?&lt;/h3&gt;
 
@@ -61,7 +63,7 @@
 
 &lt;p&gt;&lt;img src=&quot;https://git-scm.com/images/progit2.png&quot; width=&quot;200&quot; height=&quot;300&quot; /&gt;&lt;/p&gt;
 </description>
-        <pubDate>2020-06-01</pubDate>
+        <pubDate>2020-06-14</pubDate>
         <link>http://localhost:4000/articles/2020-05/git-e-controle-de-versoes-01</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2020-05/git-e-controle-de-versoes-01</guid>
         
@@ -117,7 +119,7 @@
 
 &lt;p&gt;Queria te agradecer por ter chegado até aqui e te convidar a continuar acompanhando nossa história. Um forte abraço e até a próxima. ;) &amp;lt;3&lt;/p&gt;
 </description>
-        <pubDate>2020-06-01</pubDate>
+        <pubDate>2020-06-14</pubDate>
         <link>http://localhost:4000/articles/2020-05/apresentacao</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2020-05/apresentacao</guid>
         

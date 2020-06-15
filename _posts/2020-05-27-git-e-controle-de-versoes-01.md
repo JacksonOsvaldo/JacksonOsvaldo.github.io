@@ -5,15 +5,11 @@ excerpt: "Todo desenvolvedor de software mais experiente utiliza Git todos os di
 categories: [Desenvolvimento de Software]
 comments: true
 tag: "Git"
-image:
-  feature: https://blog.cpanel.com/wp-content/uploads/2018/05/image2018-2-8_17-46-1.png
-  credit: noic
-  creditlink: https://noic.com.br/git-e-github/
 ---
 
 Todo desenvolvedor de software mais experiente talvez utilize Git todos os dias. Desde baixar um arquivo compactado a fazer clone de todo código fonte da versão mais atual de um projeto, essa é uma das ferramentas mais interessantes de se trabalhar com a temática relacionada a controle de versões de um software, gerenciando todos os seus arquivos. Mas, por que falar de Git e de Controle de versões?
 
-Recentemente, assisti um [vídeo](https://youtu.be/sx4hAHhO9CY){:target="_blank"} do [Fábio Akita](https://www.instagram.com/akitaonrails/?hl=pt-br){:target="_blank"} onde ele cita um documento, ou uma lista deles, desenvolvido por [Kamran Ahmed](https://github.com/kamranahmedse){:target="_blank"}. Nesse [documento](https://github.com/kamranahmedse/developer-roadmap){:target="_blank"}, o autor elenca todos as principais ferramentas e/ou conhecimentos que, segundo ele, deveriam ser dominados por toda pessoa que deseje trabalhar como desenvolvedor de software.
+Recentemente, assisti um [vídeo](https://youtu.be/sx4hAHhO9CY){:target="_blank"} do [Fábio Akita](https://www.instagram.com/akitaonrails/?hl=pt-br){:target="_blank"} onde ele cita um documento, ou uma lista deles, desenvolvido por [Kamran Ahmed](https://github.com/kamranahmedse){:target="_blank"}. Nesse [documento](https://github.com/kamranahmedse/developer-roadmap){:target="_blank"}, o autor elenca todas as principais ferramentas e/ou conhecimentos que, segundo ele, deveriam ser dominados por quem deseje trabalhar como desenvolvedor de software.
 
 Desses documentos, uma das primeiras coisas que Ahmed cita é o Git junto do Controle de Versões (imagem a baixo). Mas, a pergunta vem agora, por quê?
 
@@ -25,13 +21,15 @@ No vídeo, Akita tece toda uma discussão sobre o [assunto](https://youtu.be/sx4
 
 Akita relaciona isso ao fato da existência de ferramentas como Git. Ou seja, é por conta de todo gerenciamento provido por tecnologias como essa que nós conseguimos tanto controlar, como editar e colocar em produção as mais recentes versões de um determinado software sem que, nesse processo, nos percamos em meio a uma infinidade de códigos, arquivos, diretórios etc.
 
-Esse post tem como premissa explanar um pouco mais o assunto relacionado a Git e a Controle de Versões. Não que faça isso de maneira muito profunda ou avançada demais a ponto de tornar extremamente seleta essa leitura. Pelo contrário. O post será divido em duas partes. A primeira parte, essa aqui, fará uma apresentação aos principais conceitos sobre gerais sobre o assunto.
+Então, esse post tem a intenção de explanar um pouco mais o assunto relacionado a Git e a Controle de Versões. Não que faça isso de maneira muito profunda ou avançada demais a ponto de tornar extremamente seleta essa leitura. Pelo contrário. O post será divido em duas partes. A primeira parte, essa aqui, fará uma breve apresentação aos principais conceitos relacionados ao assunto.
 
-Na segunda parte, iremos aplicar esse conceitos em algumas coisas bem práticas, como criar um repositório, fazer um _clone_, um _push_, um _pull_ e por aí vai. E, oh, não se assuste com essas palavras meio estranhas. Vamos aprender juntos o que cada uma delas, pelo menos as principais, significam. Tudo bem?
+Na segunda parte, iremos aplicar esses conceitos em algumas coisas bem práticas e básicas como criar um repositório, fazer um _clone_, um _push_, um _pull_ e por aí vai. E, oh, não se assuste com essas palavras meio estranhas. Vamos aprender juntos o que cada uma delas, pelo menos as principais, significam. Tudo bem?
 
 ## O que é controle de versões?
 
-Acho que antes de seguirmos falando sobre Git precisamos elucidar alguns conceitos importantes, como os relacionados a Controle de Versões. Vou levar em consideração algumas dúvidas que me deixam inquieto sobre o assunto, de forma que elas sejam destrinchadas em tópicos e, desse jeito, possam agrupar esses conceitos.
+No processo de pensar a escrita desse post me dei conta de uma coisa, eu ainda não sabia o que fundamentava tudo isso. Ou seja, eu não sabia quais eram os fundamentos teóricos de um controle de versões, quem havia pensado, preiramente, nele e quais eram sua reais variações, se existiam.
+
+Então, 
 
 ### Quem criou?
 
