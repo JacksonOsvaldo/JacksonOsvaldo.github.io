@@ -10,4 +10,17 @@
   github: https://github.com/coronagis
   website: https://coronagis.com
 
+- name: Empresas Brasil
+  descr: "Projeto para tabulação de dados das empresas brasileiras correlacionando essas informações com CNAE e demais instâncias."
+  github: https://github.com/JacksonOsvaldo/dados-empresas
 
+- name: API REST FULL - AfroMap
+  descr: "Solução REST FULL (Back-end) para o aplicativo."
+
+- name: AfroMap
+  descr: "Mapemanto de Afroempreendedores na região amazônica"
+  website: https://play.google.com/store/apps/details?id=com.festivalexu.afromap
+
+- name: E-commerce Srisri Tattva
+  descr: "Over 35 years ago, our team had a vision to share an ecosystem of health & wellness with the world. Today, after decades of research & development in combining today’s modern science with the ancient science of Ayurveda, we are proud to have grown into a global health & wellness company."
+  website: https://www.srisritattva.eu/
