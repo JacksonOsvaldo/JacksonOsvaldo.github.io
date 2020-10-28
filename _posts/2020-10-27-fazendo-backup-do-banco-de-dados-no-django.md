@@ -109,7 +109,7 @@ Já temos tudo pronto. Agora, vamos criar o nosso primeiro backup:
 python manage.py dbbackup
 ```
 
-Depois de exetudado, será criado um arquivo -- no nosso exemplo, esse arquivo terá uma extensão .dump --, salvo na pasta _backups_. Esse arquivo contendo todo backup do nosso banco de dados.
+Depois de exetudado, será criado um arquivo -- no nosso exemplo, esse arquivo terá uma extensão .dump --, salvo na pasta _backups_. Esse arquivo contem todo backup do nosso banco de dados.
 
 Para recuperarmos nosso banco, vamos supor que migramos nosso sistema de um servidor antigo para um novo e, por algum motivo, nossa base de dados foi corrompida, inviabilizando seu uso. Ou seja, estamos com o sistema/projeto sem banco de dados -- ou seja, exlua ou mova a a sua base dados .sqlite3 para que esse exemplo seja útil --, mas temos os backups. Com isso, vamos restaurar o banco:
 
@@ -119,4 +119,4 @@ python manage.py dbrestore
 
 Prontinho, restauramos nosso banco de dados. O interessante do é que ele gera os backups com datas e horários específicos, facilitando o processo de recuperação das informações mais recentes.
 
-Por hoje é isso, pessoal. Até a próxima.
+Por hoje é isso, pessoal. Até a próxima. ;)
