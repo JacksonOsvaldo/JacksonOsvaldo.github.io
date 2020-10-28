@@ -117,6 +117,6 @@ Para recuperarmos nosso banco, vamos supor que migramos nosso sistema de um serv
 python manage.py dbrestore
 ```
 
-Prontinho, restauramos nosso banco de dados. O interessante do é que ele gera os backups com datas e horários específicos, facilitando o processo de recuperação das informações mais recentes.
+Prontinho, restauramos nosso banco de dados. O interessante do django-dbbackup é que ele gera os backups com datas e horários específicos, facilitando o processo de recuperação das informações mais recentes.
 
 Por hoje é isso, pessoal. Até a próxima. ;)
