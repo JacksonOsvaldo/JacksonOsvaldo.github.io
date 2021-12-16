@@ -8,7 +8,7 @@
 
 html {
   line-height: $base-line-height;
-  font-family: Ubuntu;
+  font-family: $font-family-base;
   font-weight: normal;
   color: $text-color;
   -webkit-font-smoothing: antialiased;
