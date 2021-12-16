@@ -8,6 +8,8 @@ email:
 description: Um curioso apaixonado por livros, tecnologia e programação.
 url: https://jacksonosvaldo.github.io
 keywords: ["blog", "Jackson Osvaldo", "Python", ""]
+plugins:
+  - jekyll-sitemap
 
 #
 ###################################
