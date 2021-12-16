@@ -28,6 +28,6 @@ jobs:
       with:
         ruby-version: 2.6
     - name: Install dependencies
-      run: rm Gemfile.lock && bundle install
+      run: rm Gemfile.lock && rm -rf _site && bundle install
     # - name: Run tests
     #   run: bundle exec rake
