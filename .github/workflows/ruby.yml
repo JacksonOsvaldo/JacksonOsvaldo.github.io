@@ -28,7 +28,7 @@ jobs:
     # uses: ruby/setup-ruby@v1
       uses: ruby/setup-ruby@v1.59.1
       with:
-        ruby-version: 2.6
+        ruby-version: 3.4.4
     - name: Install dependencies
       run: rm Gemfile.lock && rm -rf _site && bundle install
     # - name: Run tests
