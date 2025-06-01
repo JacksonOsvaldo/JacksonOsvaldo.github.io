@@ -5,128 +5,347 @@
     <description>Um curioso apaixonado por livros, tecnologia e programação.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>2020-06-14</pubDate>
-    <lastBuildDate>Sun, 14 Jun 2020 22:43:06 -0300</lastBuildDate>
-    <generator>Jekyll v3.8.5</generator>
+    <pubDate>2025-06-01</pubDate>
+    <lastBuildDate>Sun, 01 Jun 2025 09:54:48 -0300</lastBuildDate>
+    <generator>Jekyll v3.9.3</generator>
     
       <item>
-        <title>Git e Controle de versões [Parte 01]</title>
-        <description>&lt;p&gt;Todo desenvolvedor de software mais experiente talvez utilize Git todos os dias. Desde baixar um arquivo compactado a fazer clone de todo código fonte da versão mais atual de um projeto, essa é uma das ferramentas mais interessantes de se trabalhar com a temática relacionada a controle de versões de um software, gerenciando todos os seus arquivos. Mas, por que falar de Git e de Controle de versões?&lt;/p&gt;
+        <title>Python Para RPA - Iniciando os estudos</title>
+        <description>&lt;h2 id=&quot;introdução&quot;&gt;Introdução&lt;/h2&gt;
+&lt;p&gt;Na nossa primeira conversa, o intuito foi falar um pouco sobre o cenário da automação de processos no Brasil e no mundo, de forma breve. Além disso, começamos a estruturar um ambiente de estudo tomando como ponto de partida um cenário bem particular. Essa primeira conversa será o nosso ponto de partida para as demais aulas. Nossa intenção é a de melhorar a aplicação que construímos nesse primeiro momento e, com isso, desbravar esse universo que é a criação de automações usando Python.&lt;/p&gt;
 
-&lt;p&gt;Recentemente, assisti um &lt;a href=&quot;https://youtu.be/sx4hAHhO9CY&quot; target=&quot;_blank&quot;&gt;vídeo&lt;/a&gt; do &lt;a href=&quot;https://www.instagram.com/akitaonrails/?hl=pt-br&quot; target=&quot;_blank&quot;&gt;Fábio Akita&lt;/a&gt; onde ele cita um documento, ou uma lista deles, desenvolvido por &lt;a href=&quot;https://github.com/kamranahmedse&quot; target=&quot;_blank&quot;&gt;Kamran Ahmed&lt;/a&gt;. Nesse &lt;a href=&quot;https://github.com/kamranahmedse/developer-roadmap&quot; target=&quot;_blank&quot;&gt;documento&lt;/a&gt;, o autor elenca todas as principais ferramentas e/ou conhecimentos que, segundo ele, deveriam ser dominados por quem deseje trabalhar como desenvolvedor de software.&lt;/p&gt;
+&lt;h2 id=&quot;abordagem-do-cenário-de-automação-nacional-e-internacionalmente&quot;&gt;Abordagem do Cenário de Automação (nacional e internacionalmente)&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/img/OTRS_automacao.jpg.webp&quot; alt=&quot;image info&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Desses documentos, uma das primeiras coisas que Ahmed cita é o Git junto do Controle de Versões (imagem a baixo). Mas, a pergunta vem agora, por quê?&lt;/p&gt;
+&lt;h2 id=&quot;adentrando-no-nosso-case-de-estudo&quot;&gt;Adentrando no nosso case de estudo&lt;/h2&gt;
+&lt;p&gt;Para serguirmos com nosso estudo, precisamos de um cenário. Esse cenário será o da Maria. A Maria é uma funcionária responsável por coletar semanalmente os dados de vendas de um sistema online.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://github.com/kamranahmedse/developer-roadmap/raw/master/img/intro.png&quot; alt=&quot;alt&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;O processo feito pela Maria envolve a coleta semanal de dados de vendas de um sistema online, onde ela exporta informações para um arquivo Excel. Após baixar os dados, ela os insere manualmente em uma intranet, o que demanda muito tempo. Para melhorar a comunicação das vendas, ela decide adicionar capturas de tela ao boletim informativo da empresa. A documentação do processo é fundamental para a automação, e um Documento de Definição de Processos (PDD) é sugerido como um guia para organizar as informações necessárias.&lt;/p&gt;
 
-&lt;p&gt;No vídeo, Akita tece toda uma discussão sobre o &lt;a href=&quot;https://youtu.be/sx4hAHhO9CY?t=246&quot; target=&quot;_blank&quot;&gt;assunto&lt;/a&gt;. Entretanto, antes de iniciá-la ele faz o seguinte questionamento – muito interessante, por sinal:&lt;/p&gt;
+&lt;h2 id=&quot;apresentando-as-tecnologias&quot;&gt;Apresentando as tecnologias&lt;/h2&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;Como centenas de desenvolvedores podem editar os mesmos códigos em um projeto como o Linux e não virar uma bagunça coloçal?&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;h2 id=&quot;configurando-setup&quot;&gt;Configurando Setup&lt;/h2&gt;
 
-&lt;p&gt;Akita relaciona isso ao fato da existência de ferramentas como Git. Ou seja, é por conta de todo gerenciamento provido por tecnologias como essa que nós conseguimos tanto controlar, como editar e colocar em produção as mais recentes versões de um determinado software sem que, nesse processo, nos percamos em meio a uma infinidade de códigos, arquivos, diretórios etc.&lt;/p&gt;
+&lt;h2 id=&quot;codificando-a-solução&quot;&gt;Codificando a Solução&lt;/h2&gt;
 
-&lt;p&gt;Então, esse post tem a intenção de explanar um pouco mais o assunto relacionado a Git e a Controle de Versões. Não que faça isso de maneira muito profunda ou avançada demais a ponto de tornar extremamente seleta essa leitura. Pelo contrário. O post será divido em duas partes. A primeira parte, essa aqui, fará uma breve apresentação aos principais conceitos relacionados ao assunto.&lt;/p&gt;
+&lt;h2 id=&quot;problematizando-a-solução&quot;&gt;Problematizando a solução&lt;/h2&gt;
 
-&lt;p&gt;Na segunda parte, iremos aplicar esses conceitos em algumas coisas bem práticas e básicas como criar um repositório, fazer um &lt;em&gt;clone&lt;/em&gt;, um &lt;em&gt;push&lt;/em&gt;, um &lt;em&gt;pull&lt;/em&gt; e por aí vai. E, oh, não se assuste com essas palavras meio estranhas. Vamos aprender juntos o que cada uma delas, pelo menos as principais, significam. Tudo bem?&lt;/p&gt;
+&lt;h2 id=&quot;próximos-passos&quot;&gt;Próximos passos&lt;/h2&gt;
 
-&lt;h2 id=&quot;o-que-é-controle-de-versões&quot;&gt;O que é controle de versões?&lt;/h2&gt;
-
-&lt;p&gt;No processo de pensar a escrita desse post me dei conta de uma coisa, eu ainda não sabia o que fundamentava tudo isso. Ou seja, eu não sabia quais eram os fundamentos teóricos de um controle de versões, quem havia pensado, preiramente, nele e quais eram sua reais variações, se existiam.&lt;/p&gt;
-
-&lt;p&gt;Então,&lt;/p&gt;
-
-&lt;h3 id=&quot;quem-criou&quot;&gt;Quem criou?&lt;/h3&gt;
-
-&lt;p&gt;Se você fizer uma busca rápida na Wikipédia, verá que a página referente a &lt;a href=&quot;https://pt.wikipedia.org/wiki/Sistema_de_controle_de_vers%C3%B5es&quot; target=&quot;_blank&quot;&gt;Sistemas de Controles de Versão&lt;/a&gt; não detém muitos detalhes sobre quem criou ou desenvolveu os conceitos teóricos iniciais sobre o assunto. Porém, ao consultar uma postagem do blog &lt;a href=&quot;http://blog.brew.com.hk/&quot; target=&quot;_blank&quot;&gt;&lt;em&gt;The Brewing Press&lt;/em&gt;&lt;/a&gt; – obrigado ao Uerlei por ter me ajudado –, conseguimos identificar coisas muito interessantes.&lt;/p&gt;
-
-&lt;p&gt;Na postagem, os autores nos levam a entender uma coisa muito interessante. Transcrevendo,&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;O controle de versão sempre existiu - ele começou simplesmente com a cópia de toda a base de código em diretórios antigos [traduzido do inglês].&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Ou seja, o simples fato de você criar uma pasta no seu computador, organizando o que é, por exemplo, novo, antigo e o que sendo desenvolvido já cumpre o papel desse controle das versões do que você está desenvolvendo. E, com isso, esse processo não ocorre, unicamente, com quem desenvolve software. Ocorre, basicamente, com todo mundo que organiza suas coisas de forma semelhante.&lt;/p&gt;
-
-&lt;h3 id=&quot;como-isso-funciona&quot;&gt;Como isso funciona?&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Revision_controlled_project_visualization-2010-24-02.svg/220px-Revision_controlled_project_visualization-2010-24-02.svg.png&quot; alt=&quot;alt&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;a-premissa-de-antes-é-a-mesma-de-hoje&quot;&gt;A premissa de antes é a mesma de hoje?&lt;/h3&gt;
-
-&lt;h3 id=&quot;git-é-o-controle-de-versões&quot;&gt;Git é o Controle de Versões?&lt;/h3&gt;
-
-&lt;h2 id=&quot;breve-histórico-sobre-git&quot;&gt;Breve histórico sobre Git&lt;/h2&gt;
-
-&lt;h2 id=&quot;o-que-é-git&quot;&gt;O que é Git?&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://git-scm.com/images/progit2.png&quot; width=&quot;200&quot; height=&quot;300&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;reveja-a-live&quot;&gt;Reveja a Live&lt;/h2&gt;
+&lt;p&gt;Clica na imagem a baixo para rever a live. :)
+&lt;a href=&quot;https://www.youtube.com/live/_d7IUVBm_J4?si=pevGdv4ZiBKZrCol&quot;&gt;&lt;img src=&quot;https://img.youtube.com/vi/_d7IUVBm_J4/sddefault.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>2020-06-14</pubDate>
-        <link>http://localhost:4000/articles/2020-05/git-e-controle-de-versoes-01</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/2020-05/git-e-controle-de-versoes-01</guid>
+        <pubDate>2025-06-01</pubDate>
+        <link>http://localhost:4000/articles/2024-11/python-para-rpa-aula01</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/2024-11/python-para-rpa-aula01</guid>
         
-        <category>Git</category>
+        <category>RPA</category>
         
         
-        <category>Desenvolvimento de Software</category>
+        <category>Python</category>
+        
+        <category>RPA</category>
         
       </item>
     
       <item>
-        <title>Apresentação do Blog</title>
-        <description>&lt;p&gt;Esse blog nasce de uma vontade antiga de popularizar assuntos relacionados a tecnologia de uma maneira geral. Além disso, é tanto uma forma de exercitar minha escrita (melhorando gramática, conceitos de linguagem, etc.) como de melhorar minhas expertises em assuntos do meu interesse.&lt;/p&gt;
+        <title>Fazendo backup do banco de dados no Django</title>
+        <description>&lt;h2 id=&quot;apresentação&quot;&gt;Apresentação&lt;/h2&gt;
 
-&lt;p&gt;A intenção é conversar com você e tentar colaborar, ao máximo, com seu processo de busca por conhecimento. E, isso, seja indicando os caminhos ou destrinchando muitas coisas e situações do meu cotidiano de trabalho.&lt;/p&gt;
+&lt;p&gt;Em algum momento, durante o seu processo de desenvolvimento com Django, pode ser que surja a necessidade de criar e restaurar o banco de dados da aplicação. Pensando nisso, resolvi fazer um pequeno tutorial, básico, de como realizar essa operação.&lt;/p&gt;
 
-&lt;p&gt;Acho que, como autodidata, uma das coisas que mais admiro na internet é ter onde encontrar conteúdo para ler ou para resolver um determinado problema e por aí vai. Isso me motiva a continuar. Essa motivação talvez se deva a minha paixão pelo movimento de &lt;a href=&quot;https://pt.wikipedia.org/wiki/Software_livre&quot;&gt;&lt;em&gt;Software Livre&lt;/em&gt;&lt;/a&gt; e por tudo que, graças a ele, tive a oportunidade de aprender.&lt;/p&gt;
+&lt;p&gt;Nesse tutorial, usaremos o &lt;a href=&quot;https://github.com/django-dbbackup/django-dbbackup&quot;&gt;django-dbbackup&lt;/a&gt;, um pacote desenvolvido especificamente para isso.&lt;/p&gt;
 
-&lt;p&gt;Como diria nosso querido &lt;a href=&quot;https://diolinux.com.br/2016/05/13-frases-epicas-de-richard-stallman.html&quot;&gt;Richard Stallman&lt;/a&gt;,&lt;/p&gt;
+&lt;h2 id=&quot;configurando-nosso-ambiente&quot;&gt;Configurando nosso ambiente&lt;/h2&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;Qualquer decisão que conduz uma pessoa vem de valores e objetivos. As pessoas podem ter muitos objetivos e valores diferentes: fama, lucro, amor, sobrevivência, diversão e liberdade são apenas algumas das metas que uma boa pessoa pode ter. Quando o objetivo é para ajudar os outros tão  bem como a si mesmo, chamamos isso de idealismo.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Primeiro, partindo do início, vamos criar uma pasta para o nosso projeto e, nela, isolar o nosso ambiente de desenvolvimento usando uma &lt;a href=&quot;https://virtualenv.pypa.io/en/latest/index.html&quot;&gt;virtualenv&lt;/a&gt;:&lt;/p&gt;
 
-&lt;p&gt;Talvez não haja nada de relacionado com o que disse acima, mas essa é uma das frases mais bonitas que li ultimamente e que conseguem relacionar o que penso com o que devo fazer — ou com o que acho que devo fazer. Acho que conhecimento para si próprio, apenas, é uma coisa inútil, entende? E é isso que quero dizer.&lt;/p&gt;
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;mkdir &lt;/span&gt;projeto_db &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;projeto_db &lt;span class=&quot;c&quot;&gt;#criando a pasta do nosso projeto&lt;/span&gt;
 
-&lt;p&gt;Quem sabe eu consiga ajudar alguém a se encantar por esse mundo da tecnologia como eu, assim, me encantei. E, caso isso ocorra, caso alguém, mesmo que apenas uma única pessoa, consiga encontrar ou sentido, ou direção nessas minhas discussões, ficarei muito satisfeito.&lt;/p&gt;
+virtualenv &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; python3.8 &lt;span class=&quot;nb&quot;&gt;env&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;source env&lt;/span&gt;/bin/activate &lt;span class=&quot;c&quot;&gt;#criando e ativando a nossa virtualenv&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;h2 id=&quot;principais-assuntos-do-blog&quot;&gt;Principais Assuntos do Blog&lt;/h2&gt;
+&lt;p&gt;Depois disso e com o nosso ambiente já ativo, vamos realizar os seguintes procedimentos:&lt;/p&gt;
 
-&lt;p&gt;Então, sobre as postagens desse blog, preciso dizer que os assuntos ou conteúdos, caso prefira diferenciar, estarão relacionados ou farão parte dos seguintes eixos temáticos:&lt;/p&gt;
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pip &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-U&lt;/span&gt; pip &lt;span class=&quot;c&quot;&gt;#com isso, atualizamos a verão do pip instalado&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;Informática Geral ou Básica (Hardware, Software e Manutenção de PCs);&lt;/li&gt;
-  &lt;li&gt;Sistemas Operacionais;&lt;/li&gt;
-  &lt;li&gt;Desenvolvimento de Software;&lt;/li&gt;
-  &lt;li&gt;Linguagens de Programação;&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;Machine Learning&lt;/em&gt;;&lt;/li&gt;
-  &lt;li&gt;Curiosidades.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h2 id=&quot;instalando-as-dependências&quot;&gt;Instalando as dependências&lt;/h2&gt;
 
-&lt;p&gt;Esses eixos são o que posso dizer serem as coisas que mais me fascinam no universo da tecnologia. Claro, não os únicos, mas são os principais.&lt;/p&gt;
+&lt;p&gt;Agora, vamos instalar o &lt;a href=&quot;https://www.djangoproject.com/&quot;&gt;Django&lt;/a&gt; e o pacote que usaremos para fazer nossos backups.&lt;/p&gt;
 
-&lt;p&gt;Dentro de cada um desses eixos existem infindáveis assuntos, conteúdos, tipos de abordagem e técnicas. Cada um desses eixos é um universo em si. Por isso, não esperem que eu escreva uma bíblia, tudo bem?&lt;/p&gt;
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pip &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Django&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;==&lt;/span&gt;3.1.2 &lt;span class=&quot;c&quot;&gt;#instalando o Django&lt;/span&gt;
 
-&lt;h2 id=&quot;apoio&quot;&gt;Apoio&lt;/h2&gt;
+pip &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;django-dbbackup &lt;span class=&quot;c&quot;&gt;#instalando o django-dbbackup&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Esse projeto é livre e gratuito. No entanto, caso você queira contribuir com ele, seja me pagando um café (&lt;a href=&quot;https://pag.ae/7W3osZhKt&quot; target=&quot;_blank&quot;&gt;pode clicar aqui&lt;/a&gt; ou no botão para doação no lado esquerdo) ou comentando as postagens, seja muito bem-vindo ou bem-vinda. Sua opinião é muito importante pra mim. Ela me ajuda a crescer, tanto em discurso como a entender de que forma eu posso melhorar no processo de apresentação das minhas ideias.&lt;/p&gt;
+&lt;h2 id=&quot;criando-e-configurando-projeto&quot;&gt;Criando e configurando projeto&lt;/h2&gt;
 
-&lt;p&gt;Desde já, muito obrigado pela ajuda.&lt;/p&gt;
+&lt;p&gt;Depois de instaladas nossas dependências, vamos criar o nosso projeto e configurar o nosso pacote nas configurações do Django.&lt;/p&gt;
 
-&lt;h2 id=&quot;conclusão&quot;&gt;Conclusão&lt;/h2&gt;
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;django-admin startproject django_db &lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;#dentro da nossa pasta projeto_db, criamos um projeto Django com o nome de django_db.&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Queria te agradecer por ter chegado até aqui e te convidar a continuar acompanhando nossa história. Um forte abraço e até a próxima. ;) &amp;lt;3&lt;/p&gt;
+&lt;p&gt;Depois de criado nosso projeto, vamos criar e popular o nosso banco de dados.&lt;/p&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;python manage.py migrate &lt;span class=&quot;c&quot;&gt;#com isso, sincronizamos o estado do banco de dados com o conjunto atual de modelos e migrações.&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Criado nosso banco de dados, vamos criar um superusuário para podemos o painel admin do nosso projeto.&lt;/p&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;python manage.py createsuperuser
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Perfeito. Já temos tudo que precisamos para executar nosso projeto. Para execução dele, é só fazermos:&lt;/p&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;python manage.py runserver
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Você terá uma imagem assim do seu projeto:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/django_db.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;configurando-o-django-dbbackup&quot;&gt;Configurando o django-dbbackup&lt;/h2&gt;
+
+&lt;p&gt;Dentro do seu projeto, vamos acessar o arquivo settings.py, como expresso abaixo:&lt;/p&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;django_db/
+├── settings.py
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Dentro desse arquivos iremos, primeiro, adiconar o django-dbbackup às apps do projeto:&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;INSTALLED_APPS&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;...&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;&apos;dbbackup&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;# adicionando django-dbbackup
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Depois de adicionado às apps, vamos dizer para o Django o que vamos salvar no backup e, depois, indicar a pasta para onde será encaminhado esse arquivo. Essa inserção deve ou pode ser feita no final do arquivo &lt;em&gt;settings.py&lt;/em&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;DBBACKUP_STORAGE&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;django.core.files.storage.FileSystemStorage&apos;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;#o que salvar
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DBBACKUP_STORAGE_OPTIONS&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;location&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;backups/&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# onde salvar
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Percebam que dissemos para o Django salvar o backup na pasta &lt;em&gt;backups&lt;/em&gt;, mas essa pasta ainda não existe no nosso projeto. Por isso, precisamos criá-la [fora da pasta do projeto]:&lt;/p&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;mkdir &lt;/span&gt;backups
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;criando-e-restaurando-nosso-backup&quot;&gt;Criando e restaurando nosso backup&lt;/h2&gt;
+
+&lt;p&gt;Já temos tudo pronto. Agora, vamos criar o nosso primeiro backup:&lt;/p&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;python manage.py dbbackup
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Depois de exetudado, será criado um arquivo – no nosso exemplo, esse arquivo terá uma extensão .dump –, salvo na pasta &lt;em&gt;backups&lt;/em&gt;. Esse arquivo contem todo backup do nosso banco de dados.&lt;/p&gt;
+
+&lt;p&gt;Para recuperarmos nosso banco, vamos supor que migramos nosso sistema de um servidor antigo para um novo e, por algum motivo, nossa base de dados foi corrompida, inviabilizando seu uso. Ou seja, estamos com o sistema/projeto sem banco de dados – ou seja, exlua ou mova a a sua base dados .sqlite3 para que esse exemplo seja útil –, mas temos os backups. Com isso, vamos restaurar o banco:&lt;/p&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;python manage.py dbrestore
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Prontinho, restauramos nosso banco de dados. O interessante do django-dbbackup é que ele gera os backups com datas e horários específicos, facilitando o processo de recuperação das informações mais recentes.&lt;/p&gt;
+
+&lt;p&gt;Por hoje é isso, pessoal. Até a próxima. ;)&lt;/p&gt;
 </description>
-        <pubDate>2020-06-14</pubDate>
-        <link>http://localhost:4000/articles/2020-05/apresentacao</link>
-        <guid isPermaLink="true">http://localhost:4000/articles/2020-05/apresentacao</guid>
+        <pubDate>2025-06-01</pubDate>
+        <link>http://localhost:4000/articles/2020-10/fazendo-backup-do-banco-de-dados-no-django</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/2020-10/fazendo-backup-do-banco-de-dados-no-django</guid>
         
-        <category>Intro</category>
+        <category>Python, Django</category>
         
         
-        <category>Geral</category>
+        <category>Python</category>
+        
+        <category>Django</category>
+        
+      </item>
+    
+      <item>
+        <title>Introdução a Programação com Python</title>
+        <description>&lt;h3 id=&quot;apresentação&quot;&gt;Apresentação&lt;/h3&gt;
+
+&lt;p&gt;Se você está começando no mundo da programação, pode ser difcíl saber por onde ir e quais caminhos seguir. Isso pode ser ainda mais “incômodo” em se tratando das pessoas que, autodidatas, tencionam aprender a desenvolver algo ou alguma coisa independente de universidade e/ou cursos semelhantes – nesse caso, me incluam. Pensando nisso e em uma forma de organizar uma lista de materiais sobre programação e Python, pensei nesse post.&lt;/p&gt;
+
+&lt;p&gt;A intenção é listar livros, cursos/playlists que possam agregar valor ao seu processo de aprendizado. Então, vamos lá.&lt;/p&gt;
+
+&lt;h3 id=&quot;introdução-a-programação-algoritmos-e-teorias&quot;&gt;Introdução a programação (Algoritmos e teorias)&lt;/h3&gt;
+
+&lt;p&gt;Antes de seguirmos programando, precisamos aprender e consolidar alguns conceitos muito importantes. Esse conceitos nos acompanharão pelo resto de nossas vidas como programadores e programadoras. Então, nesse sentido, vamos estudar um pouco sobre Algoritmos, Estruturas de repetição, Tipos de dados e por aí vai. Para isso, segue os materiais.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Livro&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Descrição&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://www.amazon.com.br/Algoritmos-Teoria-Pr%C3%A1tica-Thomas-Cormen/dp/8535236996/ref=asc_df_8535236996/?tag=googleshopp00-20&amp;amp;linkCode=df0&amp;amp;hvadid=379707181411&amp;amp;hvpos=&amp;amp;hvnetw=g&amp;amp;hvrand=8459507990236722199&amp;amp;hvpone=&amp;amp;hvptwo=&amp;amp;hvqmt=&amp;amp;hvdev=c&amp;amp;hvdvcmdl=&amp;amp;hvlocint=&amp;amp;hvlocphy=20097&amp;amp;hvtargid=pla-1002925180312&amp;amp;psc=1&quot;&gt;Algoritmos - Teoria e Prática&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Este livro apresenta um texto abrangente sobre o moderno estudo de algoritmos para computadores. Além disso, descreve e exemplifica muitos conceitos importantes, como tipos de dados, árvores binárias etc.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://www.amazon.com.br/Entendendo-Algoritmos-Ilustrado-Programadores-Curiosos/dp/8575225634/ref=asc_df_8575225634/?tag=googleshopp00-20&amp;amp;linkCode=df0&amp;amp;hvadid=379765802639&amp;amp;hvpos=&amp;amp;hvnetw=g&amp;amp;hvrand=8459507990236722199&amp;amp;hvpone=&amp;amp;hvptwo=&amp;amp;hvqmt=&amp;amp;hvdev=c&amp;amp;hvdvcmdl=&amp;amp;hvlocint=&amp;amp;hvlocphy=20097&amp;amp;hvtargid=pla-811121403561&amp;amp;psc=1&quot;&gt;Entendendo Algoritmos: Um Guia Ilustrado Para Programadores e Outros Curiosos&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Um guia ilustrado para programadores e outros curiosos. Além disso, esse livro é repleto de ótimos exemplos.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Vídeo/Playlist&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Descrição&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV&quot;&gt;&lt;img src=&quot;https://i.ytimg.com/vi/8mei6uVttho/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&amp;amp;rs=AOn4CLAeMYmh6Nqfw2DxDJ4Gpud_Alxqeg&quot; alt=&quot;Watch the video&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Aprender Algoritmos e Lógica de Programação não é difícil! O professor Gustavo Guanabara, com mais de 20 anos de experiência, vai mostrar os passos para aprender a programar em 15 aulas bem descontraídas.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;introdução-à-linguagem-de-programação-python&quot;&gt;Introdução à Linguagem de Programação Python&lt;/h3&gt;
+
+&lt;p&gt;Em termos de introdução ao Python, enquanto linguagem de programação, tenho indicações muito especiais. Em termos de livros, recomendo a obra em Português de Nilo Menezes. Membro ativo da comunidade, o Nilo discorre com muita propriedade sobre Python e, de forma quase híbrida, sobre os princípios da programação, sempre aplicando o conceitual ao prático.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Livro&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Descrição&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://www.amazon.com.br/Introdu%C3%A7%C3%A3o-%C3%A0-Programa%C3%A7%C3%A3o-com-Python/dp/8575227181/ref=as_li_ss_tl?ie=UTF8&amp;amp;qid=1547801628&amp;amp;sr=8-1&amp;amp;keywords=nilo+ney+coutinho&amp;amp;linkCode=sl1&amp;amp;tag=livropython-20&amp;amp;linkId=d945781d420befb81bb935576479889a&amp;amp;language=pt_BR&quot;&gt;Introdução à Programação com Python: Algoritmos e Lógica de Programação Para Iniciantes&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Este livro é orientado ao iniciante em programação. Os conceitos básicos de programação, como expressões, variáveis, repetições, decisões, listas, dicionários, conjuntos, funções, arquivos, classes, objetos e banco de dados com SQLite 3 são apresentados um a um com exemplos e exercícios.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Em termos de vídeos, indico os que mais me marcaram por conta da didática. Cada um dos professores desses cursos discorre com muita propriedade, amor e carinho sobre a linguagem.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Vídeo/Playlist&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Descrição&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLesCEcYj003QxPQ4vTXkt22-E11aQvoVj&quot;&gt;&lt;img src=&quot;https://i.ytimg.com/vi/j94IGZmwtYI/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&amp;amp;rs=AOn4CLDcpH7PAMt7QK5xkHaoOcrgWzHXpA&quot; alt=&quot;Watch the video&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Curso completo de Python. Neste, nós aprenderemos do básico ao avançado sobre como programar em Python. Cada aula do nosso curso é foi projetada para que qualquer pessoa, que tenha ou não conhecimento de outra linguagem de programação, consiga acompanhar o curso&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLfCKf0-awunOu2WyLe2pSD2fXUo795xRe&quot;&gt;&lt;img src=&quot;https://i.ytimg.com/vi/lJjR906426o/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&amp;amp;rs=AOn4CLCiydNKKWgjbcZDYRnyYz_ZId21nQ&quot; alt=&quot;Watch the video&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Curso de aulas de programação usando a linguagem python, ensinando do básico ao profissional.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6&quot;&gt;&lt;img src=&quot;https://i.ytimg.com/vi/S9uPNppGsGo/hqdefault.jpg?sqp=-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=&amp;amp;rs=AOn4CLCMjA_EZ1CVJ1dgkKHldzEneqj1Gw&quot; alt=&quot;Watch the video&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Curso criado pelo Prof. Gustavo Guanabara para o site CursoemVideo.com&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;conclusão&quot;&gt;Conclusão&lt;/h3&gt;
+
+&lt;p&gt;Então, é isso pessoal. Esses materiais são os “básicos” para iniciarmos com os estudos em Python e, antes, entendermos um pouco mais esse mundo mágico da programação.&lt;/p&gt;
+
+&lt;p&gt;Um forte abraço e até a próxima. &amp;lt;3&lt;/p&gt;
+</description>
+        <pubDate>2025-06-01</pubDate>
+        <link>http://localhost:4000/articles/2020-09/introducao-a-programacao-com-python</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/2020-09/introducao-a-programacao-com-python</guid>
+        
+        <category>Python</category>
+        
+        
+        <category>Python</category>
+        
+      </item>
+    
+      <item>
+        <title>Como baixar arquivos de um servidor FTP com Python e Linux?</title>
+        <description>&lt;h2 id=&quot;apresentação&quot;&gt;Apresentação&lt;/h2&gt;
+
+&lt;p&gt;Dia desses, me deparei com um pequeno problema, acho que algo rotineiro na vida de muitos desenvolvedores e, de certo, usuários Linux. Precisava baixar muitos arquivos de um servidor FTP e não estava nem um pouco a fim de fazer isso de maneira manual. Então, pensando nisso, escrevi um código em Python (versão 3.8), bem simples, que facilitou o download desses arquivos.&lt;/p&gt;
+
+&lt;p&gt;No meu caso, precisava realizar o download de toda &lt;a href=&quot;https://www.ibge.gov.br/geociencias/organizacao-do-territorio/15774-malhas.html?=&amp;amp;t=downloads&quot;&gt;base de dados do IBGE&lt;/a&gt; relativa às malhas territoriais de todos os estados do brasil, compreendendo todos os municípios, da última atualização disponível (ano de 2019).&lt;/p&gt;
+
+&lt;p&gt;Nesse processo de desenvolvimento, utilizei Python, como já disse. Pensei em utilizar alguns pacotes externos, como o próprio &lt;a href=&quot;https://requests.readthedocs.io/en/master/&quot;&gt;Requests&lt;/a&gt; e o &lt;a href=&quot;https://www.crummy.com/software/BeautifulSoup/&quot;&gt;Beautiful Soup&lt;/a&gt;, mas regredi e utilizei apenas o pacote padrão da linguagem. Como utilizo Linux, integrei o Python á um comando muito útil dos terminais de distribuições baseadas em Debian chamado &lt;a href=&quot;https://www.gnu.org/software/wget/&quot;&gt;wget&lt;/a&gt; – sinceramente, não sei se outras distros já tem o wget pré-instalado.&lt;/p&gt;
+
+&lt;h2 id=&quot;download-dos-arquivos&quot;&gt;Download dos arquivos&lt;/h2&gt;
+
+&lt;p&gt;Algo simples, como comentei anteriormente. Inicialmente, defini meu interpretador e a codificação utilizada.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;#!/usr/bin/env python3.8
+# -*- ecoding: utf-8 -*-
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Em seguida, importei o pacote &lt;a href=&quot;https://docs.python.org/3/library/os.html&quot;&gt;os&lt;/a&gt; do Python.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;os&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Depois disso, criei uma variável (url) e, nela, coloquei o caminho do meu diretório FTP.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;url&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;ftp://geoftp.ibge.gov.br/organizacao_do_territorio/malhas_territoriais/malhas_municipais/municipio_2019/UFs/&apos;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Feito isso, criei uma instância os do sistema, de forma que eu conseguisse executar o comando wget. Como parâmetro do wget, passamos o -r que diz para o comando que executaremos um download recursivo. Em seguida, usando o &lt;a href=&quot;https://docs.python.org/3/tutorial/inputoutput.html#the-string-format-method&quot;&gt;format&lt;/a&gt;, passamos a url de todos os nossos arquivos.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;system&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;wget -r {}&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Nosso código ficará assim:&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;#!/usr/bin/env python3
+# -*- ecoding: utf-8 -*-
+&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;os&lt;/span&gt;
+
+
+&lt;span class=&quot;c1&quot;&gt;# Definindo variável com url do diretório de todos os arquivos do servidor FTP.
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;url&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;ftp://geoftp.ibge.gov.br/organizacao_do_territorio/malhas_territoriais/malhas_municipais/municipio_2019/UFs/&apos;&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# Fazendo download de todos os arquivos utilizando o wget do Linux.
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;system&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;wget -r {}&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Depois de estruturado, vamos executar o programa. No nosso terminal, teremos o seguinte:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/ftp-python-linux.png&quot; alt=&quot;alt&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Essas informações indicam, de maneira detalhada, o nome do arquivo que está sendo baixado, bem como para onde ele está sendo encaminhado, seu tamanho etc. Uma observação interessante é a de que, no momento de execução do programa, o wget já se incube da tarefa de organizar nossos diretórios, algo muito útil.&lt;/p&gt;
+
+&lt;h2 id=&quot;concluindo&quot;&gt;Concluindo&lt;/h2&gt;
+
+&lt;p&gt;Esse script foi apenas para praticar um pouco. O comando, utilizando Linux, pode ser executado sem tantos rodeios. Por exemplo:&lt;/p&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;wget &lt;span class=&quot;nt&quot;&gt;-r&lt;/span&gt; ftp://geoftp.ibge.gov.br/organizacao_do_territorio/malhas_territoriais/malhas_municipais/municipio_2019/UFs/
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;É isso, pessoal. Espero que gostem! &amp;lt;3&lt;/p&gt;
+
+&lt;p&gt;Código disponível em: &lt;a href=&quot;https://github.com/JacksonOsvaldo/download_malhas_municpio&quot;&gt;https://github.com/JacksonOsvaldo/download_malhas_municpio&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>2025-06-01</pubDate>
+        <link>http://localhost:4000/articles/2020-09/Como-baixar-arquivos-de-um-servidor-FTP-com-Pythone-Linux</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/2020-09/Como-baixar-arquivos-de-um-servidor-FTP-com-Pythone-Linux</guid>
+        
+        <category>Python, Linux</category>
+        
+        
+        <category>Python</category>
+        
+        <category>Linux</category>
         
       </item>
     
