@@ -1,71 +1,84 @@
-# Update 07/09/2018
+<!-- markdownlint-disable-next-line -->
+<div align="center">
 
-I'm planning to refactor Leonids theme!!!
+  <!-- markdownlint-disable-next-line -->
+  # Chirpy Jekyll Theme
 
-The goal is really simple: make documentation more intuitive and deployment simpler!!!
+  A minimal, responsive, and feature-rich Jekyll theme for technical writing.
 
-Here is the plan:
+  [![CI](https://img.shields.io/github/actions/workflow/status/cotes2020/jekyll-theme-chirpy/ci.yml?logo=github)][ci]&nbsp;
+  [![Codacy Badge](https://img.shields.io/codacy/grade/4e556876a3c54d5e8f2d2857c4f43894?logo=codacy)][codacy]&nbsp;
+  [![GitHub license](https://img.shields.io/github/license/cotes2020/jekyll-theme-chirpy?color=goldenrod)][license]&nbsp;
+  [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy?&logo=RubyGems&logoColor=ghostwhite&label=gem&color=orange)][gem]&nbsp;
+  [![Open in Dev Containers](https://img.shields.io/badge/Dev_Containers-Open-deepskyblue?logo=linuxcontainers)][open-container]
 
-| Version | Description | Date |
-| --- | --- | --- |
-| 1.1 | Jekyll version deployable with gem | 07/15/2018 |
-| 1.2 | New features: Pagination, Prev/Next post | 07/22/2018 |
-| 2.0 | Gatsby or Vuepress version (vote in Issues) | who knows... |
+  [**Live Demo** →][demo]
 
-As the project was and will be designed to improve your writing experience, only documentation, gem, deployment process with CI relevant PRs are acceptable in the future.
+  [![Devices Mockup](https://chirpy-img.netlify.app/commons/devices-mockup.png)][demo]
 
-I want you to know how much I value your support.
+</div>
 
-Share it to your timeline!
+## Features
 
-# Update 05/06/2016
+- Dark Theme
+- Localized UI language
+- Pinned Posts on Home Page
+- Hierarchical Categories
+- Trending Tags
+- Table of Contents
+- Last Modified Date
+- Syntax Highlighting
+- Mathematical Expressions
+- Mermaid Diagrams & Flowcharts
+- Dark Mode Images
+- Embed Media
+- Comment Systems
+- Built-in Search
+- Atom Feeds
+- PWA
+- Web Analytics
+- SEO & Performance Optimization
 
-Important! It's better to download the gzipped files instead of forking the repo. I would really appreciate if you could give me a star. 😁
+## Documentation
 
-This project is under MIT license, so feel free to make it your own.
+To learn how to use, develop, and upgrade the project, please refer to the [Wiki][wiki].
 
-# Leonids Jekyll Themes
+## Contributing
 
-**[Leonids](http://renyuanz.github.io/leonids)** is a clean Jekyll theme perfect for powering your GitHub hosted blog.
+Contributions (_pull requests_, _issues_, and _discussions_) are what make the open-source community such an amazing place
+to learn, inspire, and create. Any contributions you make are greatly appreciated.
+For details, see the "[Contributing Guidelines][contribute-guide]".
 
-## What is Leonids?
+## Credits
 
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Simple and clear permalink structure.
-* Support for Disqus Comments.
-* Support for multi-authors.
-* **And** the Leonids (/ˈliːənɪdz/ lee-ə-nidz) are a prolific meteor shower associated with the comet [Tempel-Tuttle](https://en.wikipedia.org/wiki/55P/Tempel%E2%80%93Tuttle).
+### Contributors
 
-See a [demo](http://renyuanz.github.io/leonids/) hosted on GitHub.
+Thanks to [all the contributors][contributors] involved in the development of the project!
 
-## Quick setup
+[![all-contributors](https://contrib.rocks/image?repo=cotes2020/jekyll-theme-chirpy&columns=16)][contributors]
+<sub> — Made with [contrib.rocks](https://contrib.rocks)</sub>
 
-```
-git clone https://github.com/renyuanz/leonids
-cd leonids
-jekyll server
-```
+### Third-Party Assets
 
-Check out your awesome blog at `http://localhost:4000` and Cheers!
+This project is built on the [Jekyll][jekyllrb] ecosystem and some [great libraries][lib], and is developed using [VS Code][vscode] as well as tools provided by [JetBrains][jetbrains] under a non-commercial open-source software license.
 
-## Running with Docker
+The avatar and favicon for the project's website are from [ClipartMAX][clipartmax].
 
-```
-docker run --rm -it --volume=$PWD:/srv/jekyll -p 4000:4000 jekyll/jekyll:pages jekyll serve --watch --force_polling
-```
+## License
 
-## Resume Page by [@Skn0tt](https://github.com/Skn0tt)
-Leonids features a simple resume page. It is divided up into five sections:
+This project is published under [MIT License][license].
 
-* Bio (Edit \_data/index/careers.yml)
-* Education (Edit \_data/index/education.yml)
-* Skills (Edit \_data/index/skills.yml)
-* Projects (Edit \_data/index/projects.yml)
-* About (Edit \_includes/sections/about.html)
-
-You can put all your info into these files, and they will be featured on the resume page.
-
-## TODO
-
-- [ ] Redesign categories page. Ref: [dribbble: blog category section By Ilja Miskov](https://dribbble.com/shots/2274792-Blog-Category-Selection)
-- [ ] Multi languages support.
+[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
+[ci]: https://github.com/cotes2020/jekyll-theme-chirpy/actions/workflows/ci.yml?query=event%3Apush+branch%3Amaster
+[codacy]: https://app.codacy.com/gh/cotes2020/jekyll-theme-chirpy/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade
+[license]: https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/LICENSE
+[open-container]: https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/cotes2020/jekyll-theme-chirpy
+[jekyllrb]: https://jekyllrb.com/
+[clipartmax]: https://www.clipartmax.com/middle/m2i8b1m2K9Z5m2K9_ant-clipart-childrens-ant-cute/
+[demo]: https://cotes2020.github.io/chirpy-demo/
+[wiki]: https://github.com/cotes2020/jekyll-theme-chirpy/wiki
+[contribute-guide]: https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/docs/CONTRIBUTING.md
+[contributors]: https://github.com/cotes2020/jekyll-theme-chirpy/graphs/contributors
+[lib]: https://github.com/cotes2020/chirpy-static-assets
+[vscode]: https://code.visualstudio.com/
+[jetbrains]: https://www.jetbrains.com/?from=jekyll-theme-chirpy
