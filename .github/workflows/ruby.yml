@@ -5,9 +5,9 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [ubuntu-latest, macos-latest]
+        os: [ubuntu]
         # Due to https://github.com/actions/runner/issues/849, we have to use quotes for '3.0'
-        ruby: ['3.3', '3.4']
+        ruby: ['3.3', '3.4.4']
     runs-on: ${{ matrix.os }}
     steps:
     - uses: actions/checkout@v4
