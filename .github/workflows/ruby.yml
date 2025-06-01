@@ -5,9 +5,9 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [ubuntu]
+        os: [ubuntu-latest]
         # Due to https://github.com/actions/runner/issues/849, we have to use quotes for '3.0'
-        ruby: ['3.3', '3.4.4']
+        ruby: ['3.4.4']
     runs-on: ${{ matrix.os }}
     steps:
     - uses: actions/checkout@v4
@@ -15,4 +15,4 @@ jobs:
       with:
         ruby-version: ${{ matrix.ruby }}
         bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-    - run: rm Gemfile.lock && rm -rf _site && bundle install
+    - run: rm -rf _site && bundle install && 
