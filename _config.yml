@@ -7,7 +7,7 @@ title: Jackson Osvaldo
 email:
 description: Um curioso apaixonado por livros, tecnologia e programação.
 url: https://jacksonosvaldo.github.io
-keywords: ["blog", "Jackson Osvaldo", "Python", ""]
+keywords: ["blog", "Jackson Osvaldo", "Python", "RPA"]
 plugins:
   - jekyll-sitemap
 
@@ -53,10 +53,10 @@ owner:
   github: JacksonOsvaldo
   gitlab: JacksonOsvaldo
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: #username
+  linkedin: jackson-osvaldo
   skype: #username
   xing: #username
-  instagram: jacksonosvaldo.l/
+  instagram: #username
   lastfm: #username
   tumblr: #username
   pinterest: #username

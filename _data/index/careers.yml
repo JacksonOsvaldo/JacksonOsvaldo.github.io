@@ -1,16 +1,107 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
-- name: LohJa - Soluções em TI
-  link: https://lohjati.com.br
-  date: 2019 - <i class="fa fa-clock-o" aria-hidden="true" title="Atual"></i>
-  job: CEO e Desenvolvedor Python
+- name: Biti9 - Automação de Processos Sob Medida e Cultura de Inovação
+  date: outubro de 2023 - <i class="fa fa-clock-o" aria-hidden="true" title="Atual"></i>
+  job: Desenvolvedor Back-end Python
+  description:
+    - Suporte N2
+    - Arquitetura de software
+    - Integração com sistemas
+    - Criação de back-end (Django)
+    - Testes Unitários
+    - Criação de RPA em Python
+    - Sustentação de RPAs
+    - Alocação no cliente (outsourcing)
+    - Integração com Ambientes SAP
+    - Classificação de Documentos (IA)
+    - Rabbit MQ
 
-- name: Prefeitura Municipal de Primavera-PA
-  link: https://www.primavera.pa.gov.br/
-  date: Janeiro de 2017 - Abril de 2020
-  job: Auxiliar Administrativo
+- name: Pytá Preservação Digital e Tecnologia
+  date: outubro de 2022 - setembro de 2023
+  job: Desenvolvedor Back-end Python
+  description:
+    - Modelagem de banco de dados
+    - Arquitetura de software
+    - Integração com sistemas
+    - Desenvolvimento de API Rest
+    - Suporte
+    - Criação de front-end (Vue JS)
+    - Criação de back-end (Django)
+    - Testes Unitários
 
-- name: Prefeitura Municipal de Primavera-PA
-  link: https://www.primavera.pa.gov.br/
-  date: Março de 2016 - Outubro de 2016
-  job: Auxiliar Administrativo
+- name: Bestlicenças
+  date: janeiro de 2022 - março de 2023
+  job: Desenvolvedor Back-end Python
+  description:
+    - Modelagem de banco de dados
+    - Arquitetura de software
+    - Integração com sistemas
+    - Desenvolvimento de API Rest
+    - Suporte
+    - Criação de front-end (Vue JS)
+    - Criação de back-end (Django)
+    - Testes Unitários
+    - Desenvolvimento de aplicações desktop (PyQT5)
+    - Criação de sistemas SaaS
+
+- name: Ítrios
+  date: janeiro de 2019 - dezembro de 2022
+  job: Desenvolvedor Back-end Python / Sócio proprietário
+  description:
+    - Modelagem de banco de dados
+    - Arquitetura de software
+    - Integração com sistemas
+    - Desenvolvimento de API Rest
+    - Suporte
+    - Criação de front-end (Vue JS)
+    - Criação de back-end (Django)
+    - Testes Unitários
+    - Administração de empresa
+    - Contato com cliente (comercial)
+    - Elaboração de acordos técnicos e operacionais
+    - Gerenciamento de equipes multidisciplinares
+    - Gerenciamento de projetos
+
+- name: 99Freelas
+  date: janeiro de 2021 - janeiro de 2022
+  job: Desenvolvedor web
+  description:
+    - Suporte N1 e N2
+    - Implementação de ambientes e-commerce (Shopify, Woocommerce, Magento e Django)
+    - Criação de soluções RPA (Python e Selenium)
+    - Criação de BOT's
+    - Implementação de sites
+    - Implementação e otimização de ambientes web
+    - Desenvolvimento de sistemas SaaS
+    - Implementação de rotinas Docker
+    - Manutenção de Banco de Dados
+    - Criação e configuração de servidores web
+
+- name: Festival Exú / Festival AfroMap
+  date: janeiro de 2019 - janeiro de 2020
+  job: Desenvolvedor web
+  description:
+    - Gerenciamento de equipe para criação de produtos digitais
+    - Concepção e implementação de sites Wordpress
+    - Desenvolvimento de aplicação mobile com Dart/Flutter
+    - Suporte a servidores compartilhados
+    - Migração de sistemas
+    - Manutenção de ambientes PHP (sites e blogs)
+
+- name: U-Get
+  date: abril de 2017 - dezembro de 2018
+  job: Desenvolvedor Back-end Python
+  description:
+    - Criação de rotinas em Django
+    - Manutenção de código legado
+    - Criação de rotinas em banco de dados
+    - Criação de documentação de código
+    - Suporte N1
+
+- name: Prefeitura de Primavera (PA)
+  date: janeiro de 2016 - janeiro de 2017
+  job: Técnico de TI
+  description:
+    - Manutenção de máquinas Windows e Linux
+    - Formatação de microcomputadores
+    - Suporte em TI

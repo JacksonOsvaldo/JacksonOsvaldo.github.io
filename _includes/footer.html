@@ -2,16 +2,4 @@
   &copy; {{ site.time | date: '%Y' }} {{ site.owner.name }}. Desenvolvido com muito <i class="fa fa-heart heart-icon"></i> utilizando <a href="http://jekyllrb.com/">Jekyll</a> e <a href="http://github.com/renyuanz/leonids/">leonids theme</a>
   <!-- <br>
   <a href="{{ site.url }}/Politica_de_Privacidade">Política de Privacidade</a> -->
-  <nav class="nav">
-    <ul class="nav-list">
-      <li class="nav-item">
-        <a href="{{ site.url }}/">Início</a>
-      </li>
-      {% for page in site.pages %} {% if page.title %}
-      <li class="nav-item">
-        <a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a>
-      </li>
-      {% endif %} {% endfor %}
-    </ul>
-  </nav>
 </footer>

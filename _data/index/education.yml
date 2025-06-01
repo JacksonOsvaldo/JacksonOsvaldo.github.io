@@ -1,6 +1,9 @@
+- name: PUC Minas
+  link: https://www.pucminas.br
+  date: março de 2024 - setembro de 2025
+  descr: Pós-graduação Lato Sensu - Especialização em Automação de Processos - RPA e Hiperautomação
 
-
-- name: Universidade Federal Rural da Amazônia (UFRA)
-  link: https://novo.ufra.edu.br/
-  date: 2016 - <i class="fa fa-clock-o" aria-hidden="true" title="Atual"></i>
-  descr: <br> (expected graduation in 2022)
+- name: UNINTER Centro Universitário Internacional
+  link: https://www.uninter.com
+  date: maio de 2021 - setembro de 2023
+  descr: Bacharelado em Análise e Desenvolvimento de Sistemas
