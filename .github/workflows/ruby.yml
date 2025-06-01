@@ -7,11 +7,11 @@
 
 name: Ruby
 
-on:
-  push:
-    branches: [ master, release, feat ]
-  pull_request:
-    branches: [ master, release, feat ]
+# on:
+  # push:
+  #   branches: [ master, release, feat ]
+  # pull_request:
+  #   branches: [ master, release, feat ]
 
 jobs:
   test:
